@@ -1,0 +1,16 @@
+task: rte
+language: ch
+engine: gpt-3.5-turbo
+api_key: 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
+text_input: 浅草神社位于日本东京都台东区浅草的浅草寺本堂东侧，供奉的是土师真中知、桧田浜成、桧前武成，三位对于浅草寺创立有密切关联的人，每年5月17日都会举行三社祭。现在被指定为重要文化财产。
+zero_shot: true
+instruction: 已知候选的关系列表：['事件', '位于', '名称由来']，请你根据关系列表，从以下输入中抽取出可能存在的头实体(Subject)与尾实体(Object)，并给出对应的关系三元组。请按照
+  (Subject,Relation,Object) 的格式回答。
+data_path: ''
+domain: sport
+labels: None
+head_type: ''
+head_entity: ''
+tail_type: ''
+tail_entity: ''
+cwd: ???
