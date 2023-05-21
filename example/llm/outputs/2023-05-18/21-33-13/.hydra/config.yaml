@@ -1,0 +1,15 @@
+cwd: ???
+task: re
+language: ch
+engine: text-davinci-003
+api_key: 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
+text_input: 浅草神社位于日本东京都台东区浅草的浅草寺本堂东侧，供奉的是土师真中知、桧田浜成、桧前武成，三位对于浅草寺创立有密切关联的人，每年5月17日都会举行三社祭。现在被指定为重要文化财产。
+zero_shot: true
+instruction: None
+data_path: train.json
+domain: sport
+labels: None
+head_type: ''
+head_entity: ''
+tail_type: ''
+tail_entity: ''
